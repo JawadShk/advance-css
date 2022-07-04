@@ -1,0 +1,121 @@
+/*#gradient{
+    border: 2px solid rebeccapurple;
+    height: 500px;
+     background-image: linear-gradient(to top right, pink,purple, cyan ); 
+    background-image: linear-gradient(110deg, pink,purple, cyan )
+    background-image: radial-gradient(circle,cyan 60%,blue 20%,palegreen 20%);
+}
+#overflow{
+    border: 3px solid maroon;
+    background-color: cyan;
+    width: 500px;
+    height: 250px;
+     overflow-x: hidden;
+    overflow-y: scroll; 
+    overflow: auto;
+    resize: vertical;
+    resize: vertical;
+}
+textarea{
+    resize: none;
+}
+ul{
+    list-style-type:none;
+    list-style-type: circle;    
+    list-style-type: disc;
+    list-style-type: square; 
+    list-style-image: url(images/symbol.png);
+    list-style-position: inside;
+}
+ol{
+    list-style-type:none;
+    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
+    list-style-type: lower-roman;
+    list-style-type: upper-roman;
+    list-style-type: decimal;
+    list-style-type:decimal-leading-zero;
+    list-style: inside;
+}
+li{
+    border: 2px solid purple;
+}
+caption{
+    border: 1px solid black;
+    border-spacing: 20px 25px;
+    caption-side: bottom;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 15px;
+    empty-cells: hide;
+    width: 100%;
+    table-layout: auto;
+}
+tr{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: bottom;
+}
+td{
+    border: 1px solid black;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+#func{
+    height: 250px;
+    background-color: var(--primary-color);
+    width: calc(100% - 100px);
+}
+a{
+    padding: 10px;
+    margin: 30px;
+    background-color: var(--button-color);
+    color:var(--text-color) ;
+    text-decoration: none;
+}
+:root{
+    --primary-color: rgb(67, 110, 110);
+    --button-color:rgb(179, 255, 0);
+    --text-color:rgb(220, 39, 39);
+}
+#div1{
+    background-color: aquamarine;
+    width: 600px;
+    height: 200px;
+}
+#div2{
+    background-color: blanchedalmond;
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+#green{
+    color: green;
+}
+#blue{
+    color: blue;
+}
+#initial{
+    color: initial;
+}
+#inherit{
+    color: inherit;
+}
+img{
+    border: 2px solid blueviolet;
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    object-position: right center;
+}*/
