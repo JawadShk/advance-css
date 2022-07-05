@@ -1,4 +1,4 @@
-/*#gradient{
+/* #gradient{
     border: 2px solid rebeccapurple;
     height: 500px;
      background-image: linear-gradient(to top right, pink,purple, cyan ); 
@@ -118,4 +118,87 @@ img{
     width: 250px;
     object-fit: contain;
     object-position: right center;
-}*/
+}
+li:first-child{
+    color: aqua;
+    background-color: black;
+}
+li:last-child{
+    color: blueviolet;
+}
+li:nth-child(4){
+    color: maroon;
+}
+li:nth-child(odd){
+    color: green;
+}
+li:nth-child(even){
+    color: blue;
+}
+li:nth-child(n){
+    color: violet;
+}
+p::first-letter{
+    font-size: 35px;
+    color: teal;
+}
+p::first-line{
+    font-size: 35px;
+    color: teal;
+}
+h1::before{
+    content: url(images/1088580.jpg);
+}
+h1::after{
+    content: url(images/symbol.png);
+}
+::selection{
+    color: white;
+    background-color: darkred;
+} 
+.display{
+    border: 2px solid red;
+    width: 50%;
+    height: 100px;
+    display:inline-block;
+    visibility: hidden;
+    display: none;
+} 
+
+#parent{
+    border: 2px solid red;
+    padding: 20px;
+    width: 50%;
+    width: 5000px;
+    height: 5000px;
+} 
+
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    display: inline-block;
+    position: absolute;
+    bottom: 50px;
+}
+
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    right: 50px; 
+    position: relative;
+}
+*/
