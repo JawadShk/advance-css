@@ -166,11 +166,11 @@ h1::after{
 } 
 
 #parent{
-    border: 2px solid red;
+     border: 2px solid red; 
     padding: 20px;
     width: 50%;
-    width: 5000px;
-    height: 5000px;
+    margin: 100px;
+    position: relative;
 } 
 
 #one{
@@ -178,9 +178,9 @@ h1::after{
     height: 100px;
     background-color: blanchedalmond;
     display: inline-block;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
+    position: relative;
+    z-index: 3;
+
 }
 
 #two{
@@ -188,8 +188,10 @@ h1::after{
     height: 100px;
     background-color: brown;
     display: inline-block;
-    position: absolute;
-    bottom: 50px;
+    position: relative;
+    top: 50px;
+    left: -50px;
+    z-index: 2;
 }
 
 #three{
@@ -198,7 +200,93 @@ h1::after{
     background-color: black;
     display: inline-block;
     position: relative;
-    right: 50px; 
-    position: relative;
+    top: 100px; 
+    left: -100px;
+    z-index: 1;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+#img1{
+    float: right;
+}
+#img2{
+    float: left;
+}
+
+ul{
+    background-color: rgb(13, 9, 234);
+    list-style-type: none;
+    overflow: auto;
+}
+li{
+    color: white;
+    padding: 10px 20px;
+    float: left;
+}
+
+p{
+    border: 2px solid maroon;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+}
+img{
+    float: right;
+    border: 5px solid green;
+}
+#img1{
+    float: left;
+}
+#img2{
+    float: right;
+    clear: both;
+}
+
+#content{
+    width: 70%;
+    background-color: palevioletred;
+    height: 200px;
+    float: left;
+}
+#sidebar{
+    width: 30%;
+    background-color: purple;
+    height: 150px;
+    float: left;
+}
+#footer{
+    background-color: blueviolet;
+    clear: both;
+}
+
+#wrapper{
+    padding: 20px;
+    margin: 100px;
+    border: 2px solid blue;
+    background-color: pink;
+    transform: matrix(1, -0.2, 0, 1, 0, 0);
+}
+a{
+    text-decoration: none;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    transform: skew(20deg, 10deg);
+    transform: skewY(30deg);
+    display: inline-block;
+    transform-origin: 100% 100%;
+    
+}
+a:hover{
+    display: inline-block;
+    transform: translate(40px, 40px);
+    transform: rotate(20deg);
+    transform: scale(0.5,0.8);
+    transform: scaleX(0.5,0.8);
+    transform: scaleY(0.5,0.8);
 }
 */
