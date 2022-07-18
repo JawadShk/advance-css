@@ -412,5 +412,181 @@ h1{
     div2{
         width: 100%;
     }
-}*/
+}
 
+css over flow
+#overflow{
+    background-color: wheat;
+    border: 2px solid purple;
+    height: 250px;
+    width: 400px;
+    overflow: hidden;
+    overflow: visible;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow:auto;
+}
+
+html{
+    font-size: 10px;
+}
+
+#parent{
+   font-size: 10vw; 
+   font-size: 10vh;
+}
+#child{
+    font-size: 2rem;
+}
+.psu-test::first-letter{
+    color: #f32121;
+    font-size: 100px;
+    text-transform: capitalize;}
+   --- psedu class---
+li:first-child{
+    color: rgb(255, 47, 47);
+}
+li:last-child{
+    color: rgb(255, 47, 47);
+}
+li:nth-child(3){
+    color: rgb(255, 47, 47);
+}
+li:nth-child(even){
+    color: rgb(55, 11, 125);
+}
+li:nth-last-child(1){
+    color: rgb(175, 255, 47);
+}
+input:focus{
+    border: 6px dashed rgb(119, 130, 0);
+}
+---psedo element---
+p::first-letter{
+    color: tan;
+    font-size: 40px;
+}
+p::first-line{
+    color: salmon;
+    font-size: 40px;
+}
+h1::before{
+    content: url(images/symbol.png);
+}
+h1::after{
+    content: " added after";
+}
+::selection{
+    color: rgb(81, 23, 23);
+    background:hotpink;
+}
+ --- display property ----
+.display{
+    border: 2px solid green;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+#div1{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+#parent{
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    width: 50%;
+    margin: 100px;
+    position: relative;
+}
+body{
+    height: 10000px;
+}
+#one{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+#two{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+#three{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+#div1{
+    width: 70%;
+    float: left;
+    background-color: rosybrown;
+}
+#div2{
+    width: 30%;
+    float: left;
+    background-color: blueviolet;
+}
+h1{
+    font-size: 80px;
+}
+@media screen and (max-width: 786px){
+    #div1{
+        width: 50%;
+    }
+    #div2{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 400px){
+    #div1{
+        width: 100%;
+    }
+    #div2{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 400px) {
+    #div1{
+        width: 100%;
+    }
+    #div2{
+        width: 100%;
+    }
+}
+image{
+    width: 100%;
+    height: auto;
+}*/
+#container{
+    width: 100px;
+    height: auto;
+}
+#img1{
+    float:left;
+}
+#img2{
+    float: left;
+}
+ul{
+    background-color: grey;
+    list-style-type: none;
+    overflow: auto;
+}
+li{
+    color: whitesmoke;
+    padding: 15px 25px;
+    float: left;
+    justify-content: space-around;
+    
+}
